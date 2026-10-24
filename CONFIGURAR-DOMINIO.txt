@@ -1,0 +1,15 @@
+DOMINIO OFICIAL: omnibiblia.dofepro.do
+
+ATENCION: este paquete NO incluye un archivo CNAME activo para permitir
+revisar primero el sitio de prueba bajo github.io sin redireccion.
+
+Una vez verificada la publicacion:
+1. En Settings > Pages del repositorio nuevo, establecer el dominio personalizado
+   omnibiblia.dofepro.do y guardar.
+2. GitHub Pages creara el CNAME cuando se publica desde rama (segun el caso).
+3. DESPUES de configurar el dominio en GitHub, modificar SOLO el registro DNS
+   CNAME `omnibiblia` para que apunte a `dofepro-tech.github.io`.
+4. Verificar dominio, SSL y Enforce HTTPS.
+5. No cambiar DNS del dominio raiz dofepro.do ni del portafolio.
+6. Evitar modificar bibliadj.dofepro.do hasta tener lista una redireccion
+   permanente libre de contenido con derechos pendientes.

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://omnibiblia.dofepro.do/sitemap.xml
